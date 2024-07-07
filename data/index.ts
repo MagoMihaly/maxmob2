@@ -1,5 +1,5 @@
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "About", link: "#" },
   { name: "Service", link: "#services" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
@@ -39,8 +39,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Make contact Us",
-    description: "If you have question, not hesitate",
+    title: "Call Us",
+    description: "If you have question, no hesitate",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
