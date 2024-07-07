@@ -57,8 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Upgrade and maintain your Mercedes-Benz truck with our extensive
-            selection of genuine parts. From engine components to suspension
+            From engine components to suspension
             systems, we offer everything you need to keep your truck performing
             at its best.
           </p>
