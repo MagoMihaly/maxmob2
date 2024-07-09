@@ -7,17 +7,17 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Our <span className="text-purple">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Planning"
+          icon={<AceternityIcon order="Offer" />}
+          des="We'll collaborate to map out your goals, target, 
+          and key functionalities. We'll discuss things like price, 
+          parts, and technical requirements."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +26,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="Make business"
+          icon={<AceternityIcon order="Order" />}
+          des="Once you agree the price offer, we well talk about invoicing and possible shipping solutions"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +46,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="Order shipping"
+          icon={<AceternityIcon order="Shipping" />}
+          des="The delivery will ship your order next day depend on the package size and order time"
         >
           <CanvasRevealEffect
             animationSpeed={3}
