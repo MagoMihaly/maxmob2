@@ -11,8 +11,8 @@ export const gridItems = [
     title: "Max Mobil Parts",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "lg:w-full lg:h-full relative left-20 bottom-12",
-    titleClassName: "justify-start",
+    imgClassName: " lg:static lg:w-full lg:h-full relative left-20 bottom-12",
+    titleClassName: "justify-start lg:hidden",
     img: "/logo1.png",
     spareImg: "",
   },
@@ -188,7 +188,7 @@ export const team = [
     title: "Brad Pitt",
     desc: "Marketing",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp.svg",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 4,
