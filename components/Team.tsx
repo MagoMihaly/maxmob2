@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FaPhone } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
 import { team } from "@/data";
 import { Button } from "./ui/MovingBorders";
 
@@ -42,6 +43,14 @@ const Team = () => {
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}
                 </p>
+                <div className="flex justify-evenly mt-3">
+                  <a href={`mailto:${card.mail}`} className="hover:scale-150">
+                    <IoMail /> 
+                  </a>
+                  <a href={`tel:${card.tel}`} className="hover:scale-125">
+                    <FaPhone />
+                  </a>
+                </div>
               </div>
             </div>
           </Button>

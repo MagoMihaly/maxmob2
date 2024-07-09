@@ -175,6 +175,8 @@ export const team = [
     desc: "Director",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
+    tel: "+36309789391",
+    mail: "mihaly.mago1@gmail.com",
   },
   {
     id: 2,
@@ -182,6 +184,8 @@ export const team = [
     desc: "Front-End developer",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp4.svg",
+    tel: "+36309789391",
+    mail: "mihaly.mago1@gmail.com",
   },
   {
     id: 3,
@@ -189,6 +193,8 @@ export const team = [
     desc: "Marketing",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp4.svg",
+    tel: "+36309789391",
+    mail: "mihaly.mago1@gmail.com",
   },
   {
     id: 4,
@@ -196,6 +202,8 @@ export const team = [
     desc: "Booking",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
+    tel: "+36309789391",
+    mail: "mihaly.mago1@gmail.com",
   },
 ];
 
