@@ -7,7 +7,7 @@ import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
 import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
-import Experience from "@/components/Experience";
+import Team from "@/components/Team";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { PartsContainer } from '@/components/PartsContainer';
 import Brands from '@/components/Brands';
@@ -22,7 +22,7 @@ const Home = () => {
         <Brands />
         <PartsContainer />
         <Clients />
-        <Experience />
+        <Team />
         <Approach />
         <Footer />
       </div>

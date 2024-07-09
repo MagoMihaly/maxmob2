@@ -8,13 +8,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "",
-    description:
-      "We offer only authentic, high-quality Mercedes-Benz parts to ensure optimal performance and durability.",
+    title: "Max Mobil Parts",
+    description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
+    imgClassName: "lg:w-full lg:h-full relative left-20 bottom-12",
+    titleClassName: "justify-start",
+    img: "/logo1.png",
     spareImg: "",
   },
   {
@@ -45,17 +44,17 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
-    spareImg: "/b4.svg",
+    spareImg: "",
   },
 
   {
     id: 5,
-    title: "Featured Products",
+    title: "On Stocks",
     description: "High-quality parts for your Trucks",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 opacity-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/stock.png",
     spareImg: "/grid.svg",
   },
   {
@@ -182,21 +181,21 @@ export const team = [
     title: "Mago Mihaly",
     desc: "Front-End developer",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 3,
     title: "Brad Pitt",
     desc: "Marketing",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp.svg",
   },
   {
     id: 4,
     title: "Snoop Dog",
     desc: "Booking",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp1.svg",
   },
 ];
 
