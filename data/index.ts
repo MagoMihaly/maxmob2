@@ -203,8 +203,8 @@ export const team = [
   },
   {
     id: 3,
-    title: "Brad Pitt",
-    desc: "Marketing",
+    title: "Hegedűs Edit",
+    desc: "Marketing, Invoicing",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp4.svg",
     tel: "+36309789391",
@@ -212,8 +212,8 @@ export const team = [
   },
   {
     id: 4,
-    title: "Snoop Dog",
-    desc: "Booking",
+    title: "Nagy Szilvia",
+    desc: "Sales Manager",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
     tel: "+36309789391",
