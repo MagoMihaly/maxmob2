@@ -6,6 +6,15 @@ import { brands } from "@/data";
 const Brands = () => {
   return (
     <section className="py-20">
+      {/* background */}
+      <div className="w-full min-h-screen absolute">
+        <img
+          src="/bg.png"
+          alt="grid"
+          className="w-full h-full opacity-20 "
+        />
+      </div>
+
       <h1 className="heading">
         Brands
         <span className="text-purple"> work with</span>
@@ -22,9 +31,7 @@ const Brands = () => {
                   width={company.id === 4 || company.id === 5 ? 100 : 150}
                   className="md:w-24 w-20"
                 />
-                <span className= "text-lg mt-2">
-                  {company.name}
-                </span>
+                <span className="text-lg mt-2">{company.name}</span>
               </div>
             </React.Fragment>
           ))}

@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "We do Service",
+    title: "We also have a Truck Service",
     description: "If you have question, no hesitate",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -105,32 +105,32 @@ export const partsList = [
   {
     title: "Filters",
     description: "Filters for maintenance",
-    link: "",
+    img: "/fekalkatresz.png",
   },
   {
     title: "Pneumatics",
     description: "Brake hose, pneumatics system",
-    link: "",
+    img: "/fekalkatresz.png",
   },
   {
     title: "Belts",
     description: "Belts, Belt tightner and rollers",
-    link: "",
+    img: "/fekalkatresz.png",
   },
   {
     title: "Brakes",
     description: "From screw to brake pads, discs",
-    link: "",
+    img: "/fekalkatresz.png",
   },
   {
     title: "Exhaust system",
     description: "Exhaust pipe to NOX sensors",
-    link: "",
+    img: "/fekalkatresz.png",
   },
   {
     title: "Suspensions",
     description: "Airsprings to shock absorbers",
-    link: "",
+    img: "/fekalkatresz.png",
   },
 ];
 

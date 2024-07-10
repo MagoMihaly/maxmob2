@@ -62,7 +62,7 @@ const Hero = () => {
             at its best.
           </p>
 
-          <a href="#about" className="mt-4">
+          <a href="#contact" className="mt-4">
             <MagicButton
               title="Make Contant"
               icon={<FaLocationArrow />}
