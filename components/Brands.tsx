@@ -5,7 +5,7 @@ import { brands } from "@/data";
 
 const Brands = () => {
   return (
-    <section className="py-20">
+    <div className="py-20">
       {/* background */}
       <div className="w-full min-h-screen absolute">
         <img
@@ -37,7 +37,7 @@ const Brands = () => {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

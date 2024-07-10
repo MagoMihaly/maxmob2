@@ -19,7 +19,7 @@ export function PartsContainer() {
       </div>
 
       {partsList.map((card, i) => (
-        <div>
+        <div key={i}>
           <CardContainer className="flex gap-1">
             <CardBody className="relative group/card h-auto hover:shadow-2xl hover:shadow-emerald-500/[0.1] border-white/[0.2] rounded-lg border bg-[#10132E]">
               <CardItem
