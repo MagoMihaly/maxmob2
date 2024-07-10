@@ -38,15 +38,14 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Call Us",
+    title: "We do Service",
     description: "If you have question, no hesitate",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
-    spareImg: "",
+    spareImg: "/bento1.png",
   },
-
   {
     id: 5,
     title: "On Stocks",
@@ -72,33 +71,33 @@ export const gridItems = [
 export const brands = [
   {
     id: 1,
-    name: "Mercedes Benz",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Renault",
+    img: "/brand1.png",
+    nameImg: "",
   },
   {
     id: 2,
-    name: "OmniPlus",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Volvo",
+    img: "/brand2.png",
+    nameImg: "",
   },
   {
     id: 3,
-    name: "Volvo Trucks",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Mercedes",
+    img: "/brand3.png",
+    nameImg: "",
   },
   {
     id: 4,
     name: "MAN",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "/brand5.png",
+    nameImg: "",
   },
   {
-    id: 5,
+    id: 4,
     name: "Scania",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "/brand4.png",
+    nameImg: "",
   },
 ];
 
