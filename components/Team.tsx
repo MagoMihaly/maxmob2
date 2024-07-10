@@ -7,6 +7,15 @@ import { Button } from "./ui/MovingBorders";
 const Team = () => {
   return (
     <div className="py-20 w-full">
+      {/* background grid */}
+      <div className="w-full h-screen absolute">
+        <img
+          src="/footer-grid.svg"
+          alt="grid"
+          className="w-full h-full opacity-60 "
+        />
+      </div>
+
       <h1 className="heading">
         Our <span className="text-purple">Team</span>
       </h1>
@@ -45,7 +54,7 @@ const Team = () => {
                 </p>
                 <div className="flex justify-evenly mt-3">
                   <a href={`mailto:${card.mail}`} className="hover:scale-150">
-                    <IoMail /> 
+                    <IoMail />
                   </a>
                   <a href={`tel:${card.tel}`} className="hover:scale-125">
                     <FaPhone />

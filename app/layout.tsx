@@ -7,8 +7,8 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MaxMobilParts",
-  description: "Alkatrész kis és nagy kereskedelem",
+  title: "MaxMobilParts Kft",
+  description: "Truck Parts sale retail and wholesale truck service and technical support for your logistics company",
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" href="/mmb-logo.png" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
