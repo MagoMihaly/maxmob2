@@ -105,32 +105,47 @@ export const partsList = [
   {
     title: "Filters",
     description: "Filters for maintenance",
-    img: "/fekalkatresz.png",
+    img: "/part1.png",
   },
   {
     title: "Pneumatics",
     description: "Brake hose, pneumatics system",
-    img: "/fekalkatresz.png",
+    img: "/part2.png",
   },
   {
     title: "Belts",
     description: "Belts, Belt tightner and rollers",
-    img: "/fekalkatresz.png",
+    img: "/part3.png",
   },
   {
     title: "Brakes",
     description: "From screw to brake pads, discs",
-    img: "/fekalkatresz.png",
+    img: "/part4.png",
   },
   {
-    title: "Exhaust system",
-    description: "Exhaust pipe to NOX sensors",
-    img: "/fekalkatresz.png",
+    title: "Bearings",
+    description: "Bearings for smooth workings",
+    img: "/part5.png",
   },
   {
     title: "Suspensions",
     description: "Airsprings to shock absorbers",
-    img: "/fekalkatresz.png",
+    img: "/part6.png",
+  },
+  {
+    title: "Clutch",
+    description: "From release bearing to clutch plate",
+    img: "/part7.png",
+  },
+  {
+    title: "Cooler",
+    description: "Engine cooler, Intercooler, Air conditioner coolers",
+    img: "/part8.png",
+  },
+  {
+    title: "Electrics",
+    description: "Pins, Housing, Sealings",
+    img: "/part9.png",
   },
 ];
 
