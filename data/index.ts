@@ -128,9 +128,9 @@ export const partsList = [
     img: "/part5.png",
   },
   {
-    title: "Suspensions",
-    description: "Airsprings to shock absorbers",
-    img: "/part6.png",
+    title: "Engine parts",
+    description: "Oil pan to cylinder head",
+    img: "/parts6.png",
   },
   {
     title: "Clutch",
