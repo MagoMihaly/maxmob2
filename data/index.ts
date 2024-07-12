@@ -139,7 +139,7 @@ export const partsList = [
   },
   {
     title: "Cooler",
-    description: "Engine cooler, Intercooler, Air conditioner coolers",
+    description: "Engine cooler, Intercooler, Air conditioner system",
     img: "/parts8.png",
   },
   {
