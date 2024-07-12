@@ -5,7 +5,7 @@ import { brands } from "@/data";
 
 const Brands = () => {
   return (
-    <div className="py-20">
+    <div className="pt-10">
       {/* background */}
       <div className="w-full min-h-screen absolute">
         <img
