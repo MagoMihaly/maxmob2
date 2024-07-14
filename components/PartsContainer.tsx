@@ -7,7 +7,7 @@ import { partsList } from "@/data";
 
 export function PartsContainer() {
   return (
-    <section className="m-auto flex flex-wrap justify-evenly max-w-7xl rounded-3xl">
+    <section className="m-auto md:flex flex-wrap justify-evenly max-w-7xl rounded-3xl">
       {/* background grid */}
       <div className="w-full min-h-96 absolute">
         <img
@@ -18,9 +18,9 @@ export function PartsContainer() {
       </div>
 
       {partsList.map((card, i) => (
-        <div key={i} className="flex flex-wrap items-center">
+        <div key={i} className="md:flex flex-wrap items-center">
           <CardContainer className="flex flex-wrap gap-2">
-            <CardBody className="relative group/card h-auto hover:shadow-2xl hover:shadow-emerald-500/[0.1] border-white/[0.2] rounded-lg border bg-[#10132E]">
+            <CardBody className="relative group/card h-auto hover:shadow-2xl hover:shadow-emerald-500/[0.1] border-white/[0.2] rounded-lg border bg-[#10132E] w-full">
               <CardItem
                 translateZ="50"
                 className="text-2xl font-bold text-white p-2"
@@ -37,9 +37,9 @@ export function PartsContainer() {
               <CardItem translateZ="100" className="w-full mt-5">
                 <Image
                   src={card.img}
-                  height="180"
-                  width="180"
-                  className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl "
+                  height="200"
+                  width="200"
+                  className="md:h-60 h-auto w-full object-cover rounded-xl group-hover/card:shadow-xl "
                   alt="thumbnail"
                 />
               </CardItem>
